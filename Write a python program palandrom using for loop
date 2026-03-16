@@ -1,0 +1,15 @@
+# Program to check palindrome using for loop
+
+text = input("Enter a word or number: ")
+
+reverse = ""
+
+# reverse the string using for loop
+for i in range(len(text) - 1, -1, -1):
+    reverse = reverse + text[i]
+
+# check palindrome
+if text == reverse:
+    print("It is a palindrome")
+else:
+    print("It is not a palindrome")
