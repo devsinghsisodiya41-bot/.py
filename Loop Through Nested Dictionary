@@ -1,0 +1,9 @@
+students = {
+    "s1": {"name": "Rahul", "age": 20},
+    "s2": {"name": "Amit", "age": 22}
+}
+
+for key, value in students.items():
+    print("Student ID:", key)
+    for k, v in value.items():
+        print(k, ":", v)
