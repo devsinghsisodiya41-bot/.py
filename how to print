@@ -1,0 +1,15 @@
+print("Try programiz.pro")#basic define
+print("hello","dev",2026)#multiple value print karna
+print("2026","03","24",sep="-")#separator(sep)use karna
+print("hello",end=" ")#end parameter (end) use karna
+print("world")#..
+name="Dev"
+age=18
+print(name,age)#variable print karna
+name="Dev"
+age=18
+print(f"my name is {name} and i am {age} years old")#string formatting (f-string )
+print("my name is {} and i am {} years old".format("dev",19))#.formating()method
+print("my name is %s and i am %d years old"%("Dev",20))#%formating (old methord)
+print("hello\nworld")#new line
+print("hello\tworld")#tab space
