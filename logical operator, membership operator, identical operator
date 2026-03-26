@@ -1,0 +1,24 @@
+#logical operator
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+c=a>b and b>50
+print(c)
+n=a>b or b>10
+print(n)
+x=a>b or b<a
+print(x)
+l= not b<10
+print(l)
+k= not b>a
+print(k)
+
+#membership operator
+name="dev"
+print('d' in name)
+print('dev' not in name)
+
+#identical operator 
+name="DEV"
+name="dev"
+print(name is name)
+print(name is not name)
